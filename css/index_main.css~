@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#mainImage {
+	float:right;
+	margin: 20px;
+	padding:20px;
+
+
+}
+
+p{
+color:maroon;
+}
+#mainButton {
+    display: block;
+    padding: 0px;
+    border:none;
+    margin:0px;
+    vertical-align:baseline;       
+    height:50px;
+    color:red;
+    background: #34696f;
+    width:100%;
+    
+   
+}
+	
+
+ul#header{list-style-type: none;
+display: block;
+float:right;
+
+	    }
+		
+	/* rules for navigation menu */
+	/* ========================================== */
+	
+	ul#navmenu, ul.sub1, ul.sub2 {
+		list-style-type: none;
+		font-size: 8pt;
+		}
+		
+	ul#navmenu li {
+		width: 130px;
+		text-align: center;
+		position: relative;
+		float: left;
+		margin-right: 0px;
+		}
+		
+	ul#navmenu a {
+		text-decoration: none;
+		display: block;
+		width: 125px;
+		height: 25px;
+		line-height: 25px;
+		background-color: #FFF;
+		border: 1px solid #CCC;
+		position:center;
+		text-align:left;
+		border-radius: 0px;
+		}
+		
+	ul#navmenu .sub1 li {
+		}
+		
+	ul#navmenu .sub1 a {
+		margin-top: 5px;
+		}
+		
+	ul#navmenu .sub2 a {
+		margin-left: 3px;
+		}
+		
+
+		
+	ul#navmenu li:hover a:hover {
+		background-color: #FF0;
+		}
+		
+	ul#navmenu ul.sub1 {
+		display: none;
+		position: absolute;
+		top: 26px;
+		left: 0px;
+		}
+		
+	ul#navmenu ul.sub2 {
+		display: none;
+		position: absolute;
+		top: 0px;
+		left: 126px;
+		}
+		
+	ul#navmenu li:hover .sub1 {
+		display: block;
+		}
+		
+	ul#navmenu .sub1 li:hover .sub2 {
+		display: block;
+		}
+	.darrow {
+		font-size: 11pt;
+		position: absolute;
+		top: 5px;
+		right: 4px;
+		}
+		
+	.rarrow {
+		font-size: 13pt;
+		position: absolute;
+		top: 6px;
+		right: 4px;
+		}
+	
+
